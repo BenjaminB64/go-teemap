@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  test-teemap:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - ../../:/app
